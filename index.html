@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounded Navbar Buttons</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            font-family: "Times New Roman";
+        }
+
+        p {
+            color: #369f66;
+        }
+
+        h1 {
+            text-align: center
+        }  
+
+        .container {
+            display: grid;
+            width: 90vw; 
+            margin: 0 auto;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .button {
+            background-color: #95c8ff;
+            border: none;
+            color: rgb(84, 84, 84);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: rgb(233, 124, 88);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <nav>
+        <div class="container">
+            <button class="button">Home</button>
+            <button class="button">About</button>
+            <button class="button">Contact</button>
+            <button class="button">Page 1</button>
+            <button class="button">Page 2</button>
+            <button class="button">Page 3</button>
+        </div>    
+    </nav>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A porro, consequatur commodi unde dicta excepturi quisquam? In corporis quos nulla doloremque magni quo debitis sed? Minima nostrum maxime optio deleniti!</p>
+</body>
+</html>
